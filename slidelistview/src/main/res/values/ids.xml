@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="slide_menu_ids">
+        <item>@id/slide_menu_item_1</item>
+        <item>@id/slide_menu_item_2</item>
+        <item>@id/slide_menu_item_3</item>
+    </integer-array>
+
+    <item type="id" name="slide_menu_item_1"/>
+    <item type="id" name="slide_menu_item_2"/>
+    <item type="id" name="slide_menu_item_3"/>
+</resources>
