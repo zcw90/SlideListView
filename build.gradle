@@ -8,7 +8,10 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.2'
-        
+
+        // 上传到jcenter仓库需要的插件
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -17,8 +20,14 @@ buildscript {
 
 allprojects {
     repositories {
+        Properties properties = new Properties()
+        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+        maven {
+            url properties.getProperties().get("sdk.dir") + "/extras/android/m2repository"
+        }
         google()
         jcenter()
+        mavenCentral()
     }
 }
 
