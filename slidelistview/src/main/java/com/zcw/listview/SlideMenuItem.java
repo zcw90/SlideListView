@@ -1,6 +1,6 @@
-package zcw.com.listview;
+package com.zcw.listview;
 
-import zcw.com.listview.util.Constant;
+import com.zcw.listview.util.Constant;
 
 /**
  * Created by 朱城委 on 2018/11/9.<br><br>

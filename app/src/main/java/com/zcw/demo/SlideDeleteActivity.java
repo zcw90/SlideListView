@@ -17,8 +17,8 @@ import com.zcw.demo.bean.SlideDeleteBean;
 import java.util.ArrayList;
 import java.util.List;
 
-import zcw.com.listview.SlideListView;
-import zcw.com.listview.SlideMenuItem;
+import com.zcw.listview.SlideListView;
+import com.zcw.listview.SlideMenuItem;
 
 public class SlideDeleteActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package zcw.com.listview.util;
+package com.zcw.listview.util;
 
 /**
  * Created by 朱城委 on 2018/11/13.<br><br>

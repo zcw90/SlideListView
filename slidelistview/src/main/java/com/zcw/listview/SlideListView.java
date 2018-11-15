@@ -1,4 +1,4 @@
-package zcw.com.listview;
+package com.zcw.listview;
 
 import android.content.Context;
 import android.database.DataSetObserver;
@@ -16,8 +16,8 @@ import android.widget.Scroller;
 
 import java.util.List;
 
-import zcw.com.listview.util.Constant;
-import zcw.com.listview.util.DisplayUtil;
+import com.zcw.listview.util.Constant;
+import com.zcw.listview.util.DisplayUtil;
 
 /**
  * Created by 朱城委 on 2018/9/21.<br><br>

@@ -1,4 +1,4 @@
-package zcw.com.listview;
+package com.zcw.listview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

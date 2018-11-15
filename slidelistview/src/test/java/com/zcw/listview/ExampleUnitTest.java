@@ -1,4 +1,4 @@
-package zcw.com.listview;
+package com.zcw.listview;
 
 import org.junit.Test;
 

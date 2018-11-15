@@ -1,4 +1,4 @@
-package zcw.com.listview.util;
+package com.zcw.listview.util;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
