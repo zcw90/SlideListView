@@ -5,7 +5,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 def siteUrl = 'https://github.com/zcw90/SlideListView'    // project homepage
 def gitUrl = 'https://github.com/zcw90/SlideListView.git' // project git
 
-version = "0.0.3"   // 上传道jcenter的版本号
+version = "0.0.4"   // 上传道jcenter的版本号
 group = "com.zcw.listview"
 
 android {
@@ -14,8 +14,8 @@ android {
 
     defaultConfig {
         minSdkVersion 15
-        versionCode 3
-        versionName "0.0.3"
+        versionCode 4
+        versionName "0.0.4"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -32,7 +32,6 @@ android {
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
 
-    api 'com.android.support:appcompat-v7:27.1.1'
     api 'com.android.support.constraint:constraint-layout:1.1.2'
 }
 
