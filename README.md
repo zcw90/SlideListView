@@ -10,7 +10,7 @@ dependencies{
 
 ```
 
-#Usage
+# Usage
 ```
 List<SlideMenuItem> slideMenuItems = new ArrayList<>();
 slideMenuItems.add(new SlideMenuItem("删除", R.color.button_normal));
