@@ -15,6 +15,7 @@ dependencies{
 
 # Usage
 ```
+// slideMenuItems添加1个SlideMenuItem，就是1个菜单；2个SlideMenuItem，就是2个菜单；最多只能添加3个。
 List<SlideMenuItem> slideMenuItems = new ArrayList<>();
 slideMenuItems.add(new SlideMenuItem("删除", R.color.button_normal));
 slideMenuItems.add(new SlideMenuItem("菜单2", R.color.dialog_content));
