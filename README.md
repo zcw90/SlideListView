@@ -1,6 +1,9 @@
 # SlideListView
 拥有侧滑菜单的ListView
 
+# Gif
+ ![image](https://github.com/zcw90/SlideListView/blob/master/demo_git/demo_git_3.gif)
+
 # Gradle
 ```
 dependencies{
