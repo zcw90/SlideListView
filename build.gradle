@@ -3,6 +3,7 @@
 buildscript {
     
     repositories {
+        jcenter {url 'https://maven.aliyun.com/repository/jcenter'}
         google()
         jcenter()
     }
@@ -20,6 +21,7 @@ buildscript {
 
 allprojects {
     repositories {
+        jcenter {url 'https://maven.aliyun.com/repository/jcenter'}
         Properties properties = new Properties()
         properties.load(project.rootProject.file('local.properties').newDataInputStream())
         maven {
